@@ -96,13 +96,13 @@ class MyHomePage extends StatelessWidget {
                     CustomBTN(onTap: () {
                       BlocProvider.of<HomeCubit>(context).pText();
 
-                    }, text: "Back", aspectRatio: 1, size: 17,),
+                    }, text: "Back", aspectRatio: 1, size: 15,),
                     CustomBTN(onTap: (
 
                         ) {
                       BlocProvider.of<HomeCubit>(context).clear();
 
-                    }, text: "Clear", aspectRatio: 1, size: 17,),
+                    }, text: "Clear", aspectRatio: 1, size: 15,),
                   ],
                 ),
               ),
